@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Jennifer',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -23,9 +23,9 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '95b0b7a7edcda921b024a7e280fd5d6c539ad4a3',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
@@ -48,31 +48,25 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://outlook.live.com/mail/0/inbox/',
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'To Do',
       icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://to-do.office.com/tasks/today?utm_source=applauncher',
     },
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://outlook.office.com/calendar/view/month',
     },
     {
       id: '5',
       name: 'Reddit',
       icon: 'bookmark',
       link: 'https://reddit.com',
-    },
-    {
-      id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
     },
   ],
 
@@ -88,20 +82,20 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Read Something',
+        link: 'getpocket.com/my-list?src=sidebar',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Work on Something',
+        link: 'actions.moleskinestudio.com/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Work on Work',
+        link: 'projects.mosaicapp.com/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Go Shopping',
+        link: 'https://smile.amazon.com/',
       },
     ],
     secondList: [
@@ -110,16 +104,16 @@ const CONFIG = {
         link: 'https://linkedin.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Insta',
+        link: 'https://Instagram.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Twitter',
+        link: 'https://twittere.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Pins',
+        link: 'https://pinterest.com/',
       },
     ],
   },
