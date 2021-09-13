@@ -109,7 +109,7 @@ const CONFIG = {
       },
       {
         name: 'Twitter',
-        link: 'https://twittere.com',
+        link: 'https://twitter.com',
       },
       {
         name: 'Pins',
