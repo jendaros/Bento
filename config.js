@@ -68,6 +68,12 @@ const CONFIG = {
       icon: 'bookmark',
       link: 'https://reddit.com',
     },
+      {
+      id: '6',
+      name: 'Reddit',
+      icon: 'bookmark',
+      link: 'https://reddit.com',
+    }
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -83,15 +89,15 @@ const CONFIG = {
     firstList: [
       {
         name: 'Read Something',
-        link: 'getpocket.com/my-list?src=sidebar',
+        link: 'https://getpocket.com/my-list',
       },
       {
         name: 'Work on Something',
-        link: 'actions.moleskinestudio.com/',
+        link: 'https://actions.moleskinestudio.com/',
       },
       {
         name: 'Work on Work',
-        link: 'projects.mosaicapp.com/',
+        link: 'https://projects.mosaicapp.com/',
       },
       {
         name: 'Go Shopping',
